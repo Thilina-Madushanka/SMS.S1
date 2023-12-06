@@ -1,0 +1,15 @@
+server:
+    port:8080
+
+spring:
+    datasource:
+        username: root
+        password: ThilinaMysql1
+        url: jdbc:mysql://localhost:3306/sms_s1
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: create
+            format_sql: true
